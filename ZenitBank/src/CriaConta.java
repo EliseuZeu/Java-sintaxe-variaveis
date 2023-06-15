@@ -9,6 +9,8 @@ public class CriaConta {
 
         System.out.println("Primeira conta tem: " + primeirConta.saldo);
         System.out.println("Segunda conta tem: " + segundaConta.saldo);
+        primeirConta.deposita(100);
+        System.out.println("Primeira conta tem: " + primeirConta.saldo);
 
     }
 }
