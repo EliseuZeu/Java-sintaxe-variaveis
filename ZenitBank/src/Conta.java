@@ -2,7 +2,7 @@ public class Conta {
     private double saldo;
     private int agencia;
     private int numero;
-    private Cliente titular;
+    public Cliente titular;
 
     void deposita(double valor) {
         this.saldo += valor;
